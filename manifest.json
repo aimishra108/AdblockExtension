@@ -1,0 +1,14 @@
+{
+    "name":"AdBlocker",
+    "version":"1.0",
+    "description":"Development of AdBlocker",
+    "permissions":["webRequest","webRequestBlocking","<all_urls>"],
+    "background":{
+        "scripts":["background.js"]
+    },
+    "icons":{
+        "48":"icons/logo_48.png",
+        "96":"icons/logo_96.png"
+    },
+    "manifest_version":2
+}
